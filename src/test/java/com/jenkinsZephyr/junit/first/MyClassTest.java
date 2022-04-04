@@ -15,9 +15,9 @@ class MyClassTest {
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
     }
 
-//    @Test
-//    void testMultiply() {
-//        MyClass tester = new MyClass();
-//        assertEquals(50, tester.multiply(10, 5), "10 x 5 must be 50");
-//    }
+    @Test
+    void testMultiply() {
+        MyClass tester = new MyClass();
+        assertEquals(51, tester.multiply(10, 5), "10 x 5 must be 50");
+    }
 }
