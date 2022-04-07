@@ -43,7 +43,7 @@ public class MyClassTest {
 //    }
 
     @Test
-    @TestCase(key = "TES-62")
+    @TestCase(key = "TES-61")
     public void testMultiply() {
         MyClass tester = new MyClass();
         assertEquals(50, tester.multiply(10, 5));
