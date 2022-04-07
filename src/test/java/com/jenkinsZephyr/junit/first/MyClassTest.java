@@ -28,13 +28,13 @@ import org.junit.jupiter.api.BeforeEach;
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
     }
 
+//    @Test
+//    void testMultiply() {
+//        MyClass tester = new MyClass();
+//        assertEquals(50, tester.multiply(10, 5), "10 x 5 must be 50");
+//    }
     @Test
-    void testMultiply() {
-        MyClass tester = new MyClass();
-        assertEquals(50, tester.multiply(10, 5), "10 x 5 must be 50");
-    }
-    @Test
-    @DisplayName("Custom test name containing spaces")
+    @TestCase(key = "TES-60")
     void checkIfGoogleWorks() throws Exception {
         HttpClient client = HttpClient.newBuilder().build();
         HttpRequest request = HttpRequest.newBuilder().uri(URI.create("https://google.com")).build();
