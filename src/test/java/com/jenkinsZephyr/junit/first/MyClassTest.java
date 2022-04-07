@@ -21,7 +21,7 @@ import org.junit.jupiter.api.BeforeEach;
 
  class MyClassTest {
     @Test
-    void TES_56_testExceptionIsThrown() {
+    void TES_62_testExceptionIsThrown() {
         MyClass tester = new MyClass();
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
     }
