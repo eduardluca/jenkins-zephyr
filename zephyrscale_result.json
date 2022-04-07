@@ -1,0 +1,16 @@
+{
+  "version" : 1,
+  "executions" : [ {
+    "source" : "com.jenkinsZephyr.junit.first.MyClassTest.testMultiply",
+    "result" : "Passed",
+    "testCase" : {
+      "key" : "TES-62"
+    }
+  }, {
+    "source" : "com.jenkinsZephyr.junit.first.MyClassTest.checkIfGoogleWorks",
+    "result" : "Passed",
+    "testCase" : {
+      "key" : "TES-60"
+    }
+  } ]
+}
