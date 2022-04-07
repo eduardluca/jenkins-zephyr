@@ -13,6 +13,7 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.Optional;
 
+import junit.framework.TestCase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -22,7 +23,7 @@ import org.junit.jupiter.api.Test;
 class MyClassTest {
 
     @Test
-    @TestCase(key = "TST-1")
+    @TestCase(key = "TST-61")
     void testExceptionIsThrown() {
         MyClass tester = new MyClass();
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
