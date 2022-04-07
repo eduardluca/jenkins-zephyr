@@ -22,6 +22,7 @@ import org.junit.jupiter.api.Test;
 class MyClassTest {
 
     @Test
+    @TestCase(key = "TST-1")
     void testExceptionIsThrown() {
         MyClass tester = new MyClass();
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
