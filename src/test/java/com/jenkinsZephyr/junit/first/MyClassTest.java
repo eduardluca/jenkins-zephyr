@@ -3,7 +3,6 @@ package com.jenkinsZephyr.junit.first;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 import java.net.URI;
@@ -13,18 +12,16 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.util.Optional;
 
+//import junit.framework.Test;
 import junit.framework.TestCase;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
 
-public class MyClassTest {
-
+ class MyClassTest {
     @Test
-    @TestCase(key = "TST-61")
-    public void testExceptionIsThrown() {
+    void TES_56_testExceptionIsThrown() {
         MyClass tester = new MyClass();
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
     }
