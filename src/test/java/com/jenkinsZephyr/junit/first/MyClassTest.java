@@ -20,11 +20,11 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyClassTest {
+public class MyClassTest {
 
     @Test
     @TestCase(key = "TST-61")
-    void testExceptionIsThrown() {
+    public void testExceptionIsThrown() {
         MyClass tester = new MyClass();
         assertThrows(IllegalArgumentException.class, () -> tester.multiply(1000, 5));
     }
