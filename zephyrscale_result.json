@@ -4,7 +4,7 @@
     "source" : "com.jenkinsZephyr.junit.first.MyClassTest.testMultiply",
     "result" : "Passed",
     "testCase" : {
-      "key" : "TES-62"
+      "key" : "TES-T1"
     }
   }, {
     "source" : "com.jenkinsZephyr.junit.first.MyClassTest.checkIfGoogleWorks",

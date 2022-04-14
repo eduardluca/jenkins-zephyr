@@ -43,14 +43,14 @@ public class MyClassTest {
 //    }
 
     @Test
-    @TestCase(key = "TES-61")
+    @TestCase(key = "TES-T1")
     public void testMultiply() {
         MyClass tester = new MyClass();
         assertEquals(50, tester.multiply(10, 5));
     }
 
     @Test
-    @TestCase(key = "TES-60")
+    @TestCase(key = "TES-T2")
     public void checkIfGoogleWorks() throws Exception {
         HttpClient client = HttpClient.newBuilder().build();
         HttpRequest request = HttpRequest.newBuilder().uri(URI.create("https://google.com")).build();
