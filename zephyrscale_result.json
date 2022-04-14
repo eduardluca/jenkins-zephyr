@@ -10,7 +10,7 @@
     "source" : "com.jenkinsZephyr.junit.first.MyClassTest.checkIfGoogleWorks",
     "result" : "Passed",
     "testCase" : {
-      "key" : "TES-60"
+      "key" : "TES-T2"
     }
   } ]
 }
